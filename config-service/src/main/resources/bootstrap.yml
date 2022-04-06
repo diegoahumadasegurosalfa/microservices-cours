@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/diegoahumadasegurosalfa/microservices-course.git
+          uri: https://github.com/diegoahumadasegurosalfa/microservices-cours.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
