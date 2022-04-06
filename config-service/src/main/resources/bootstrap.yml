@@ -13,7 +13,7 @@ spring:
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-          default-label: "03-eureka-server"
+          default-label: "master"
         bootstrap: true
   security:
     user:
