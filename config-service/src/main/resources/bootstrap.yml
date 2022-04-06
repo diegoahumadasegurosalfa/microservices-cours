@@ -9,11 +9,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/diegoahumadasegurosalfa/ms-course-youtube.git
+          uri: https://github.com/diegoahumadasegurosalfa/microservices-course.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-          default-label: "02-config"
+          default-label: "03-eureka-server"
         bootstrap: true
   security:
     user:
