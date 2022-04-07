@@ -1,4 +1,4 @@
-package com.academy.dad.store.serviceproduct.service.entity;
+package com.academy.dad.store.serviceproduct.entity;
 
 import lombok.*;
 

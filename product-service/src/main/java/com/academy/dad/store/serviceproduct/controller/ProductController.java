@@ -1,7 +1,7 @@
 package com.academy.dad.store.serviceproduct.controller;
 
-import com.academy.dad.store.serviceproduct.service.entity.Category;
-import com.academy.dad.store.serviceproduct.service.entity.Product;
+import com.academy.dad.store.serviceproduct.entity.Category;
+import com.academy.dad.store.serviceproduct.entity.Product;
 import com.academy.dad.store.serviceproduct.service.ProductService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

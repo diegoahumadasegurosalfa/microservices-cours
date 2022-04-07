@@ -1,7 +1,7 @@
 package com.academy.dad.store.serviceproduct;
 
-import com.academy.dad.store.serviceproduct.service.entity.Category;
-import com.academy.dad.store.serviceproduct.service.entity.Product;
+import com.academy.dad.store.serviceproduct.entity.Category;
+import com.academy.dad.store.serviceproduct.entity.Product;
 import com.academy.dad.store.serviceproduct.repository.ProductRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

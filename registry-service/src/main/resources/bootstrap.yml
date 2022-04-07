@@ -1,3 +1,4 @@
+##Eureca Service
 spring:
   application:
     name: registry-service

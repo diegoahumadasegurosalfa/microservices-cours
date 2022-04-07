@@ -3,9 +3,10 @@
 
 ## Requirements
 
-- Java 11 
+- Java 17 
 - Spring Boot 2
 - Gradle 
+- MVN
 - CURL
 - JQ
 - Docker

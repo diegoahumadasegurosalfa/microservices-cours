@@ -1,7 +1,11 @@
 package com.academy.dad.store.shoppingservice.entity;
 
+import com.academy.dad.store.shoppingservice.model.Customer;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.Valid;
@@ -10,9 +14,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Data
+
 @Entity
 @Table(name = "tbl_invoices")
+@Data
+@AllArgsConstructor @Builder
 public class Invoice {
 
     @Id
@@ -38,6 +44,9 @@ public class Invoice {
     private List<InvoiceItem> items;
 
     private String state;
+
+    @Transient
+    private Customer customer;
 
     public Invoice(){
         items = new ArrayList<>();

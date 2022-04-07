@@ -37,8 +37,8 @@ public class InvoiceRest {
     }
 
     // -------------------Retrieve Single Invoice------------------------------------------
-    @GetMapping(value = "/{id}")
-    public ResponseEntity<Invoice> getInvoice(@PathVariable("id") long id){
+    @GetMapping(value = "/{numberInvoice}")
+    public ResponseEntity<Invoice> getInvoice(@PathVariable("numberInvoice") String id){
         log.info("Fetching Invoice with id {}", id);
         Invoice invoice = invoiceService.getInvoice(id);
         if (invoice == null){
@@ -75,7 +75,7 @@ public class InvoiceRest {
 
     // ------------------- Delete a Invoice-----------------------------------------
     @DeleteMapping(value = "/{id}")
-    public ResponseEntity<Invoice> deleteInvoice(@PathVariable("id") long id){
+    public ResponseEntity<Invoice> deleteInvoice(@PathVariable("id") String id){
         log.info("Fetching & Deleting Invoice with id {}", id);
         Invoice invoice = invoiceService.getInvoice(id);
         if (invoice == null){
