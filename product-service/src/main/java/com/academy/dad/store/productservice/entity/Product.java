@@ -1,4 +1,4 @@
-package com.academy.dad.store.serviceproduct.entity;
+package com.academy.dad.store.productservice.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

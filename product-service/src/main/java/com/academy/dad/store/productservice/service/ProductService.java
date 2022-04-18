@@ -1,7 +1,7 @@
-package com.academy.dad.store.serviceproduct.service;
+package com.academy.dad.store.productservice.service;
 
-import com.academy.dad.store.serviceproduct.entity.Category;
-import com.academy.dad.store.serviceproduct.entity.Product;
+import com.academy.dad.store.productservice.entity.Category;
+import com.academy.dad.store.productservice.entity.Product;
 
 import java.util.List;
 

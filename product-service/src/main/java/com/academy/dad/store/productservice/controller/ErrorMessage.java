@@ -1,4 +1,4 @@
-package com.academy.dad.store.serviceproduct.controller;
+package com.academy.dad.store.productservice.controller;
 
 import lombok.Builder;
 import lombok.Getter;

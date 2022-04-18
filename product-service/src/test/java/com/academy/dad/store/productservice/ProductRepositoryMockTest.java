@@ -1,8 +1,8 @@
-package com.academy.dad.store.serviceproduct;
+package com.academy.dad.store.productservice;
 
-import com.academy.dad.store.serviceproduct.entity.Category;
-import com.academy.dad.store.serviceproduct.entity.Product;
-import com.academy.dad.store.serviceproduct.repository.ProductRepository;
+import com.academy.dad.store.productservice.entity.Category;
+import com.academy.dad.store.productservice.entity.Product;
+import com.academy.dad.store.productservice.repository.ProductRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

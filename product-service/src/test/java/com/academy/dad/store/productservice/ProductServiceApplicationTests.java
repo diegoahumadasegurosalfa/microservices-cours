@@ -1,10 +1,10 @@
-package com.academy.dad.store.serviceproduct;
+package com.academy.dad.store.productservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServiceProductApplicationTests {
+class ProductServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

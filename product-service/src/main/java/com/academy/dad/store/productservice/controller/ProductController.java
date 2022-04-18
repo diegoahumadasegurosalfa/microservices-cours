@@ -1,8 +1,8 @@
-package com.academy.dad.store.serviceproduct.controller;
+package com.academy.dad.store.productservice.controller;
 
-import com.academy.dad.store.serviceproduct.entity.Category;
-import com.academy.dad.store.serviceproduct.entity.Product;
-import com.academy.dad.store.serviceproduct.service.ProductService;
+import com.academy.dad.store.productservice.entity.Category;
+import com.academy.dad.store.productservice.service.ProductService;
+import com.academy.dad.store.productservice.entity.Product;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;

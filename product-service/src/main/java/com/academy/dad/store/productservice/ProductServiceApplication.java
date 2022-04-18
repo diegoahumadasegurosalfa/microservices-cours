@@ -1,4 +1,4 @@
-package com.academy.dad.store.serviceproduct;
+package com.academy.dad.store.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

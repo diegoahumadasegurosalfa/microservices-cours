@@ -1,7 +1,7 @@
-package com.academy.dad.store.serviceproduct.repository;
+package com.academy.dad.store.productservice.repository;
 
-import com.academy.dad.store.serviceproduct.entity.Category;
-import com.academy.dad.store.serviceproduct.entity.Product;
+import com.academy.dad.store.productservice.entity.Category;
+import com.academy.dad.store.productservice.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 //import org.springframework.stereotype.Repository;
 
